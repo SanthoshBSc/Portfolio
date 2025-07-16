@@ -167,7 +167,7 @@
   <div class="container">
     <div class="row">
       <div class="contact-left">
-        <h1 class="sub-title">Contact Me</h1>
+        <h1 class="sub-title" id="contactme">Contact Me</h1>
         <p><i class="fa-solid fa-envelope"></i>Santhosh@gmail.com</p>
         
         <p class="phone"><i class="fa-solid fa-phone"></i>+91 7092504838</p>
@@ -238,6 +238,14 @@ function opentab(tabname){
       })
       .catch(error => console.error('Error!', error.message))
   })
+</script>
+<script>
+  document.querySelectorAll('.work').forEach(item => {
+    item.addEventListener('click', function () {
+      this.classList.add('clicked');
+
+    });
+  });
 </script>
 </body>
 </html>
