@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <div id ="header">
+  <div class = "container">
+    <nav>
+      <img src="" class="logo">
+      <ul id="sidemenu">
+          <li><a href="#header">HOME </a></li>
+          <li><a href="#about">ABOUT </a></li>
+          <li><a href="#portfolio">PORTFOLIO </a></li>
+          <li><a href="#cer">CERTIFICATION </a></li>
+          <li><a href="#contact">CONTACT </a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+  
+  <div class ="text">
+    <p> Aspiring Software Devoloper</p>
+    <h1>Hi I'm <span>Santhosh</span> <br>From India</h1>
+  </div>
+  
+   
+  </div>
+
+  </div>
+  <div id = "about">
+    <div class="row">
+      <div class="about-col-1" >
+        <img src="profile.jpg">
+         </div>
+        <div class="about-col-2">
+           <h1 class="sub-title">About Me</h1>
+           <p id="me">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  I’m an aspiring software developer with a strong foundation in Java, MySQL,
+             HTML, and CSS, focused on building efficient, secure, and scalable web applications. I enjoy solving complex problems, writing clean code, and continuously learning
+              new technologies to improve my skills. I'm passionate about creating systems that deliver real value and am eager to contribute to impactful development projects.          
+             </p>
+              <div class="tab-titles"> 
+                <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+               
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+               
+              </div>
+              <div class="tab-content active-tab" id="skills">
+          <div class="tech-container">
+    <div class="tech-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+      <span id="clr1">JAVA</span>
+    </div>
+    <div class="tech-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+      <span id="clrmy">MYSQL</span>
+    </div>
+    <div class="tech-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+      <span id="clr1">HTML</span>
+    </div>
+    <div class="tech-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+      <span id="clrmy">CSS</span>
+    </div>
+          </div>
+              </div>
+              <div class="tab-content" id="education">
+                <p id="clr">BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
+                <p>KSG COLLEGE OF ARTS AND SCIENCE ,BHARATHIAR UNIVERSITY</p>
+                <p>2022-2025</p>
+                <p>CGPA - 8.2 </p>
+
+                <p id="clr">HIGHER SECONDARY</p>
+                <p>WISDOM MATRIC HIGER SECONDARY SCHOOL</p>
+                <p>2020-2022</p>
+               
+
+              </div>
+         </div>
+     
+    </div>
+  </div>
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">MY Work</h1>
+           <div class="work-list">
+            <div class="work">
+              <img src="bank1.png">
+              <div class="layer">
+                <h3 id="bold">Bank Management System</h3>
+                <p id="me">A bank management system ensures secure user authentication, efficient 
+                  transaction handling, and robust database management. It streamlines banking
+                   operations while enhancing user experience and data protection.</p>
+                  <a href="https://github.com/SanthoshBSc/Banking-Management-System.git"><i class="fa-solid fa-code"></i></a>
+            
+              </div>
+            </div>
+            <div class="work" id="calc">
+              <img src="calcu.png">
+              <div class="layer">
+                <p id="bold">Calculator Project</p>
+                <p id="me">A calculator project allows users to perform basic arithmetic operations efficiently, 
+                  providing a simple yet essential tool for quick computations. Implementing structured logic
+                   and modular design ensures accuracy and an intuitive user experience.</p>
+                  <a href="https://github.com/SanthoshBSc/Calculator/blob/24cf84648ebcfe4186fbf2a8cff91c4c0ee6f7d0/Calculator.java"><i class="fa-solid fa-code"></i></a>
+            
+              </div>
+            </div>
+            <div class="work">
+              <img src="tic tac.png">
+              <div class="layer">
+                <p id="bold">TIC TAC TOE</p>
+                <p id="me">Tic Tac Toe (Java Swing) A simple two-player game with a clean GUI, win/draw detection, and responsive design. Built using Java Swing, it demonstrates basic event handling and game logic.</p>
+                  <a href="https://github.com/SanthoshBSc/TIC-TAC-TOE/blob/77765eb615c0418b73da820a7374ab0ce435f60d/Tick.java"><i class="fa-solid fa-code"></i></a>
+            
+              </div>
+            </div>
+
+           </div>
+           
+        </div>
+     <div id="cer">
+  <div class="container">
+    <h1 class="sub-title " id="can"><strong>Certification</strong></h1>
+    <div class="cwork-list">
+      <div class="work">
+        <img src="cre java.jpg">
+        <div class="layer">
+         
+          <p id="font">Java Advance</p>
+          <a href="#"><i class="fa-solid fa-code"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="cre java.jpg">
+        <div class="layer">
+        
+          <p id="font">Java Basics</p>
+          <a href="#"><i class="fa-solid fa-code"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="cre sql.jpg">
+        <div class="layer">
+   
+          <p id="font">MySQL Basic</p>
+          <a href="#"><i class="fa-solid fa-code"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+
+  <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title" id="contactme">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>Santhosh@gmail.com</p>
+        
+        <p class="phone"><i class="fa-solid fa-phone"></i>+91 7092504838</p>
+    
+        <div class="social-icons">
+          <a href="http://www.linkedin.com/in/santhosh261024"><i class="fa-brands fa-linkedin"></i></a>
+          
+          <a href="https://github.com/SanthoshBSc"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.hackerrank.com/profile/santhosh04idm"><i class="fa-brands fa-hackerrank"></i></a>
+          <a href="https://leetcode.com/u/Santhosh_Murugesan/"> <i class="fa fa-code"></i></a>
+        </div>
+        <a href="summa.pdf" download class="btn btn2" id="cv">DOWNLOAD  &nbsp; CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright <a href=""><i class="fa-solid fa-copyright"></i></a>Santhosh</p>
+  </div>
+</div>
+
+<script>
+  var  link = document.getElementsByClassName("tab-links");
+  var  link = document.getElementsByClassName("tab-content");
+function opentab(tabname){
+  for(tablink of document.getElementsByClassName("tab-links")){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of document.getElementsByClassName("tab-content")){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+       function openmenu(){
+        sidemenu.style.right="0";
+       }
+       function closemenu(){
+        sidemenu.style.right="-200px";
+       }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzmolzq1rmRuzmah_ASzI4NoVQ3ss7BE_T0YlH5QV8UuCfJOfVp3TQiWNOHGNhlWoqj/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML="Your Message Has been Sumbited"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+  document.querySelectorAll('.work').forEach(item => {
+    item.addEventListener('click', function () {
+      this.classList.add('clicked');
+
+    });
+  });
+</script>
+</body>
+</html>
